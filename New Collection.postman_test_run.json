@@ -1,0 +1,40 @@
+{
+	"id": "d5bb0a98-ffaf-4662-abec-428dcb93b2dc",
+	"name": "New Collection",
+	"timestamp": "2023-02-14T07:28:59.069Z",
+	"collection_id": "047b5eb5-670b-4c46-8674-32de9e553a1e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "10f59d6f-5622-4046-ae54-aa616c28a08c",
+			"name": "New Request",
+			"url": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=5min&apikey=QTES2L6REB8M6F8L",
+			"time": 492,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				492
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 492,
+	"collection": {
+		"requests": [
+			{
+				"id": "10f59d6f-5622-4046-ae54-aa616c28a08c",
+				"method": "GET"
+			}
+		]
+	}
+}
